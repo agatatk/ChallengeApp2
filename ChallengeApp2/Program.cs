@@ -5,7 +5,7 @@ string gender = "woman";
 if (gender == "woman" && age < 33)
 {
 
-    Console.WriteLine("Kobieta poniżej 30 lat");
+    Console.WriteLine("Kobieta poniżej 33 lat");
 
 }
 else if (gender != "woman" && age < 18)
