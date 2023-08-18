@@ -7,7 +7,7 @@ namespace ChallengeApp2.tests
         public void WhenUserCollectTwoScores_ShouldCorrectSumAsResult()
         {
             // arrange
-            var user = new User("Agata", "lampa2224");
+            var user = new User("Agata");
             user.AddScore(5);
             user.AddScore(8);
 

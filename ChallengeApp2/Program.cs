@@ -48,10 +48,9 @@ Console.WriteLine("Pracownik - " + employeeWithMaxResult.Name + " " + employeeWi
 
 
 
-User user1 = new User("Agata", "lampa2224");
-User user2 = new User("Ania", "kot5555");
-User user3 = new User("Zuzia", "strach123456");
-
+User user1 = new User("Agata");
+User user2 = new User("Ania");
+User user3 = new User("Zuzia");
 user1.AddScore(4);
 user1.AddScore(5);
 user1.AddScore(6);
